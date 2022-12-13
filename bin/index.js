@@ -35,6 +35,7 @@ async function main() {
     console.log("processing...");
     execSync("npx rimraf ./.git");
     execSync("npx rimraf index.html");
+    execSync("npx rimraf ./redux");
     execSync("npx rimraf package.json");
     execSync("npx rimraf package-lock.json");
     execSync("npx rimraf .gitignore");
